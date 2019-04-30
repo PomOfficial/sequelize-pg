@@ -1,0 +1,42 @@
+{
+  "name": "@pomofficial/sequelize-pg",
+  "version": "0.0.0",
+  "description": "Sequelize Postgres plugin",
+  "main": "index.js",
+  "files": [
+    "index.d.ts",
+    "index.js.map",
+    "Readme.md",
+    "LICENCE"
+  ],
+  "scripts": {
+    "prepublishOnly": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Pomegranate",
+    "Database",
+    "SQL",
+    "Sequelize"
+  ],
+  "author": "Jim Bulkowski <jim.b@paperelectron.com> (http://paperelectron.com)",
+  "license": "MIT",
+  "dependencies": {
+    "@pomegranate/plugin-tools": "^1.2.4",
+    "lodash": "^4.17.11",
+    "pg": "^7.10.0",
+    "pg-hstore": "^2.3.2"
+  },
+  "devDependencies": {
+    "@types/node": "^11.13.7",
+    "typescript": "^3.4.5"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PomOfficial/sequelize-pg.git"
+  },
+  "bugs": {
+    "url": "https://github.com/PomOfficial/sequelize-pg/issues"
+  },
+  "homepage": "https://github.com/PomOfficial/sequelize-pg#readme"
+}
