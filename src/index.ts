@@ -60,7 +60,7 @@ export const Plugin = CreatePlugin('merge')
         }
       }, allModels)
 
-
+      modelStore.SequelizeConnection = sequelize
       return modelStore
     },
     start: async (SequelizeConnection, PluginVariables, PluginLogger) => {
