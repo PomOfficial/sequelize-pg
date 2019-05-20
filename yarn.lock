@@ -2,15 +2,16 @@
 # yarn lockfile v1
 
 
-"@pomegranate/plugin-tools@^1.2.4":
-  version "1.2.4"
-  resolved "https://registry.yarnpkg.com/@pomegranate/plugin-tools/-/plugin-tools-1.2.4.tgz#bf26c0f6fb173431f65b07e0176a3561989070c9"
-  integrity sha512-cBBulkITPn7nPgFmVYANqWOGJAT3bL1x7krmhH5YXzyQ40+nuXukA35ln+p0/qmvgLP7upHOw9pkEqgwD0l2eg==
+"@pomegranate/plugin-tools@^2.0.2":
+  version "2.0.2"
+  resolved "https://registry.yarnpkg.com/@pomegranate/plugin-tools/-/plugin-tools-2.0.2.tgz#4705b51a1ae8535236ce49898cd39033c9a3271c"
+  integrity sha512-GZ7PuDKIqwUbJ1JC3Pp5OYUiuTer5UFLVCshonmOj4dBFsUnV1ePDC+6Mjr8D216gJwRLhD6BcSFp+7fHLQTQg==
   dependencies:
     "@types/lodash" "^4.14.123"
     bluebird "^3.5.3"
     fs-extra "^7.0.1"
     lodash "^4.17.11"
+    lodash-fun "^1.7.0"
 
 "@types/lodash@^4.14.123":
   version "4.14.123"
@@ -52,6 +53,14 @@ jsonfile@^4.0.0:
   integrity sha1-h3Gq4HmbZAdrdmQPygWPnBDjPss=
   optionalDependencies:
     graceful-fs "^4.1.6"
+
+lodash-fun@^1.7.0:
+  version "1.7.0"
+  resolved "https://registry.yarnpkg.com/lodash-fun/-/lodash-fun-1.7.0.tgz#a78727a395b86ff7d3048751369161df8973d7b7"
+  integrity sha512-sH4jC1a8eyUVuEQ4CXM4KBegNo5eIna1komjgpuFWWm6g4+IEgqRJuALbpwfdl2c85YTiS9zFRbwaZKARcc/hA==
+  dependencies:
+    bluebird "^3.5.3"
+    lodash "^4.17.11"
 
 lodash@^4.17.11:
   version "4.17.11"
