@@ -22,7 +22,7 @@
   "author": "Jim Bulkowski <jim.b@paperelectron.com> (http://paperelectron.com)",
   "license": "MIT",
   "dependencies": {
-    "@pomegranate/plugin-tools": "^2.0.2",
+    "@pomegranate/plugin-tools": "^2.0.3",
     "lodash": "^4.17.11",
     "pg": "^7.10.0",
     "pg-hstore": "^2.3.2"
