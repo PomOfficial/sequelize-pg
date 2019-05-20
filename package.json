@@ -1,6 +1,6 @@
 {
   "name": "@pomofficial/sequelize-pg",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Sequelize Postgres plugin",
   "main": "index.js",
   "files": [
